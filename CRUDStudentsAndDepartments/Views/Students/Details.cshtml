@@ -1,0 +1,23 @@
+﻿@model Student
+@{
+	ViewBag.Title = "Student Details";
+}
+
+
+    <script>
+        function validateDelete() {
+            return confirm('Are you sure you want to delete this student?');
+        }
+    </script>
+    <h1>
+        Student details
+    </h1>
+    <h4>@Model.Name</h4>
+    <h4>@Model.Age</h4>
+    <h4>@Model.deptId</h4>
+    <h4>@Model.Department.Name</h4>
+    <br />
+    <br />
+    <a asp-controller="Students" asp-action="Update" asp-route-id="@Model.StdId" class="btn btn-primary ">Edit</a>
+    <a onclick="return validateDelete();" asp-controller="Students" asp-action="Delete" asp-route-id="@Model.StdId" class="btn btn-danger ">Delete</a>
+

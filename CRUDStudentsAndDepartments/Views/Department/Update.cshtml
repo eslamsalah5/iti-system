@@ -1,0 +1,21 @@
+﻿@model Department
+@{
+	ViewBag.Title = "Update";
+}
+
+<form method="post">
+    <input hidden asp-for="DeptId" /><br /><br />
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name"></span>
+    <br /><br />
+
+    <label asp-for="Capacity"></label>
+    <input asp-for="Capacity" class="form-control" />
+    <span asp-validation-for="Capacity"></span>
+    <br /><br />
+
+    <input type="submit" class="btn btn-primary" value="Update" />
+
+</form>

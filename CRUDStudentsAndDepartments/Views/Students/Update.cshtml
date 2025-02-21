@@ -1,0 +1,25 @@
+﻿@model StudentUpdateViewModel
+@{
+    SelectList selectLists = new SelectList(ViewBag.depts, "DeptId", "Name");
+	ViewBag.Title = "Update Student";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="StdId" />
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name"></span>
+    <br />
+
+    <label asp-for="Age"></label>
+    <input asp-for="Age" class="form-control" />
+    <span asp-validation-for="Age"></span>
+    <br />
+
+    <label asp-for="deptId"></label>
+    <select asp-for="deptId" asp-items="selectLists" class="form-control"></select>
+    <br />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

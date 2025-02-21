@@ -1,0 +1,40 @@
+﻿@model Department
+@{
+    string message = ViewBag.Message;
+	ViewData["Title"] = "Delete";
+}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            <h5 class="card-title">Delete Confirmation</h5>
+        </div>
+        <div class="card-body">
+            <!-- Alert Message -->
+            <div class="alert alert-danger">
+                Are you sure you want to delete <strong>@Model.Name</strong>?
+            </div>
+
+            <!-- Form -->
+            <form method="post" onsubmit="return validateForm()">
+                <input type="hidden" asp-for="DeptId" />
+                <div class="text-right">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> Delete
+                    </button>
+                    <a asp-action="Cancel" asp-controller="Department" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function validateForm() {
+        var message = "@message";
+        if (message) {
+            alert(message);
+            return false;
+        }
+        return true;
+    }
+</script>

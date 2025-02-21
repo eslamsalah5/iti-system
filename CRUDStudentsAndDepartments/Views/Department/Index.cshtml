@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Department>
+@{
+	ViewData["Title"] = "Departments List";
+}
+
+<div class="d-flex justify-content-end p-3">
+    <a asp-action="Create" asp-controller="Department" class="btn btn-primary">Create Department</a>
+</div>
+<table class="table table-border table-hover">
+    <thead>
+        <tr>
+            <th>Department Id</th>
+            <th>Department Name</th>
+            <th>Department Capacity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="3">Pleaze Add any Department</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (Department department in Model)
+            {
+                <tr onclick="location.href='/Department/details/@department.DeptId';">
+                    <td>
+                        @department.DeptId
+                    </td>
+                    <td>
+                        @department.Name
+                    </td>
+                    <td>
+                        @department.Capacity
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
