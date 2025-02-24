@@ -1,0 +1,51 @@
+﻿@page
+@model ITIRazor.Pages.Departments.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-page="Create">Create New</a>
+</p>
+<table class="table table-borderless table-hover">
+    <thead>
+        <tr>
+            <th>Department Id</th>
+            <th>Department Name</th>
+            <th>Department Capacity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+         @if (Model.Department.Count() == 0)
+        {
+            <tr>
+                <td colspan="4">Pleaze Add any Department</td>
+            </tr>
+        }
+        else
+        {
+@foreach (var item in Model.Department) {
+                <tr >
+                <td>
+                    @item.DeptId
+                </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Capacity
+            </td>
+					<td>
+						<a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.DeptId">Edit</a> |
+                        <a class="btn btn-success" asp-page="./Details" asp-route-id="@item.DeptId">Details</a> |
+                        <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.DeptId">Delete</a>
+					</td>
+        </tr>
+}
+        }
+    </tbody>
+</table>

@@ -286,3 +286,4 @@ E:\iti files\MVC\CRUDStudentsAndDepartments\CRUDStudentsAndDepartments\obj\Debug
 E:\iti files\MVC\CRUDStudentsAndDepartments\CRUDStudentsAndDepartments\obj\Debug\net8.0\CRUDStudentsAndDepartments.pdb
 E:\iti files\MVC\CRUDStudentsAndDepartments\CRUDStudentsAndDepartments\obj\Debug\net8.0\CRUDStudentsAndDepartments.genruntimeconfig.cache
 E:\iti files\MVC\CRUDStudentsAndDepartments\CRUDStudentsAndDepartments\obj\Debug\net8.0\ref\CRUDStudentsAndDepartments.dll
+E:\iti files\MVC\CRUDStudentsAndDepartments\CRUDStudentsAndDepartments\obj\Debug\net8.0\CRUDStudentsAndDepartments.sourcelink.json

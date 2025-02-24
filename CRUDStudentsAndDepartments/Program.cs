@@ -1,6 +1,8 @@
 using CRUDStudentsAndDepartments.Data;
+using CRUDStudentsAndDepartments.Models;
 using CRUDStudentsAndDepartments.Repos;
 using CRUDStudentsAndDepartments.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUDStudentsAndDepartments
@@ -15,7 +17,16 @@ namespace CRUDStudentsAndDepartments
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IDepartment, DepartmentService>();
             builder.Services.AddScoped<IStudent, StudentService>();
-            builder.Services.AddScoped<CheckStudentEmailService>();
+            builder.Services.AddScoped<IEntity<Course>,GService<Course>>();
+            builder.Services.AddScoped<CheckEmailService>();
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(
+                    options =>
+                    {
+                        options.LoginPath = "/User/Login";
+
+                    }
+                );
             builder.Services.AddDbContext<MvcDbContext>(
                 s => {
                     s.UseSqlServer("Server=.\\SQLexpress;Database=MVCCRUDITI;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -50,11 +61,13 @@ namespace CRUDStudentsAndDepartments
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=department}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

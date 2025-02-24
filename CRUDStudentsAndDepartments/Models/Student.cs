@@ -44,5 +44,6 @@ namespace CRUDStudentsAndDepartments.Models
         public int deptId { get; set; }
 
         public  Department? Department { get; set; }
+
     }
 }

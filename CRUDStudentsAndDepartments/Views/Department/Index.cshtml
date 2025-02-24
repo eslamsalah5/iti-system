@@ -1,11 +1,13 @@
 ﻿@model IEnumerable<Department>
 @{
-	ViewData["Title"] = "Departments List";
+    ViewData["Title"] = "Departments List";
 }
-
-<div class="d-flex justify-content-end p-3">
-    <a asp-action="Create" asp-controller="Department" class="btn btn-primary">Create Department</a>
-</div>
+@if (User.IsInRole("Admin"))
+{
+    <div class="d-flex justify-content-end p-3">
+        <a asp-action="Create" asp-controller="Department" class="btn btn-primary">Create Department</a>
+    </div>
+}
 <table class="table table-border table-hover">
     <thead>
         <tr>

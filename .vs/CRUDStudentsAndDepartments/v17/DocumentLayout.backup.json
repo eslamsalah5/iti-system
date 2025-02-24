@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\services\\gservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\services\\gservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\models\\studentupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\models\\studentupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\services\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\services\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\services\\checkstudentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\services\\checkstudentemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|e:\\iti files\\mvc\\crudstudentsanddepartments\\crudstudentsanddepartments\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC53C1F-A613-444B-8458-7BC3BC496B5D}|CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments.csproj|solutionrelative:crudstudentsanddepartments\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +54,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Services\\DepartmentService.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAAC0AAACANDMzMzMlwDAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Program.cs",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Program.cs",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Program.cs",
+              "ViewState": "AgIAAAUAAAAALDMzMzMbwBIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:52:45.095Z",
+              "WhenOpened": "2025-02-23T13:59:17.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentUpdateViewModel.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\StudentUpdateViewModel.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Models\\StudentUpdateViewModel.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\StudentUpdateViewModel.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Models\\StudentUpdateViewModel.cs",
-              "ViewState": "AgIAAAoAAADImZmZmZk6wBIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GService.cs",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\GService.cs",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Services\\GService.cs",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\GService.cs",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Services\\GService.cs",
+              "ViewState": "AgIAAAgAAAAAGjMzMzPjvxEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:43:14.923Z",
+              "WhenOpened": "2025-02-23T13:58:24.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Controllers\\DepartmentController.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAQAAAAAMjMzMzP7vwoAAAAVAAAAAAAAAA==",
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\IEntity.cs",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Services\\IEntity.cs",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\IEntity.cs",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Services\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAD8MDMzMzMrwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:20:31.015Z",
+              "WhenOpened": "2025-02-23T13:58:12.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Department.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Models\\Department.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\Department.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Models\\Department.cs",
-              "ViewState": "AgIAAAwAAAAAmJmZmZkMwBcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Services\\StudentService.cs",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\StudentService.cs",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Services\\StudentService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:16:05.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Models\\Student.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Models\\Student.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Models\\Student.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwC0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:15:55.702Z",
+              "WhenOpened": "2025-02-23T13:47:23.766Z",
               "EditorCaption": ""
             },
             {
@@ -121,35 +112,61 @@
               "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Controllers\\StudentsController.cs",
               "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "CRUDStudentsAndDepartments\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAuwCgAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAABgMjMzMzMrwBsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T12:57:14.817Z",
+              "WhenOpened": "2025-02-23T13:46:53.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Program.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Program.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Program.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Program.cs",
-              "ViewState": "AgIAAAkAAAAA/f//////vxEAAABDAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Courses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Views\\Courses\\Delete.cshtml",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Courses\\Delete.cshtml",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Views\\Courses\\Delete.cshtml",
+              "ViewState": "AgIAABcAAAAALzMzMzMbwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:44:16.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Controllers\\CoursesController.cs",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T12:56:49.968Z",
+              "WhenOpened": "2025-02-23T13:40:58.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CheckStudentEmailService.cs",
-              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\CheckStudentEmailService.cs",
-              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Services\\CheckStudentEmailService.cs",
-              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Services\\CheckStudentEmailService.cs",
-              "RelativeToolTip": "CRUDStudentsAndDepartments\\Services\\CheckStudentEmailService.cs",
-              "ViewState": "AgIAAAEAAADQKzMzMzMLwAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T12:56:22.459Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Views\\Department\\Details.cshtml",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAA4AAAAANDMzMzMbwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:38:39.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDStudentsAndDepartments\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "E:\\iti files\\MVC\\CRUDStudentsAndDepartments\\CRUDStudentsAndDepartments\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "CRUDStudentsAndDepartments\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AgIAAB8AAAAALzMzMzMbwCgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:38:06.815Z",
               "EditorCaption": ""
             }
           ]

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDStudentsAndDepartments", "CRUDStudentsAndDepartments\CRUDStudentsAndDepartments.csproj", "{5BC53C1F-A613-444B-8458-7BC3BC496B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITIRazor", "ITIRazor\ITIRazor.csproj", "{AF69771D-31D0-42E4-89CE-DE71E8EB0B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5BC53C1F-A613-444B-8458-7BC3BC496B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC53C1F-A613-444B-8458-7BC3BC496B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC53C1F-A613-444B-8458-7BC3BC496B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF69771D-31D0-42E4-89CE-DE71E8EB0B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF69771D-31D0-42E4-89CE-DE71E8EB0B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF69771D-31D0-42E4-89CE-DE71E8EB0B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF69771D-31D0-42E4-89CE-DE71E8EB0B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

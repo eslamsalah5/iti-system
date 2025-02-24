@@ -21,6 +21,32 @@ namespace CRUDStudentsAndDepartments.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Course", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DeptId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<int>("duration")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DeptId");
+
+                    b.ToTable("Courses");
+                });
+
             modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Department", b =>
                 {
                     b.Property<int>("DeptId")
@@ -40,6 +66,23 @@ namespace CRUDStudentsAndDepartments.Migrations
                     b.HasKey("DeptId");
 
                     b.ToTable("Departments");
+                });
+
+            modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Student", b =>
@@ -78,6 +121,59 @@ namespace CRUDStudentsAndDepartments.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("CRUDStudentsAndDepartments.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("RoleUser", b =>
+                {
+                    b.Property<int>("RolesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsersId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RolesId", "UsersId");
+
+                    b.HasIndex("UsersId");
+
+                    b.ToTable("RoleUser");
+                });
+
+            modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Course", b =>
+                {
+                    b.HasOne("CRUDStudentsAndDepartments.Models.Department", "Department")
+                        .WithMany("Courses")
+                        .HasForeignKey("DeptId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Department");
+                });
+
             modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Student", b =>
                 {
                     b.HasOne("CRUDStudentsAndDepartments.Models.Department", "Department")
@@ -89,8 +185,25 @@ namespace CRUDStudentsAndDepartments.Migrations
                     b.Navigation("Department");
                 });
 
+            modelBuilder.Entity("RoleUser", b =>
+                {
+                    b.HasOne("CRUDStudentsAndDepartments.Models.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RolesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CRUDStudentsAndDepartments.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("CRUDStudentsAndDepartments.Models.Department", b =>
                 {
+                    b.Navigation("Courses");
+
                     b.Navigation("Students");
                 });
 #pragma warning restore 612, 618

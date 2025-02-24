@@ -1,0 +1,23 @@
+﻿@model LoginModelView
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+
+<form method="post">
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	<label asp-for="Email"></label>
+	<input asp-for="Email" />
+	<span asp-validation-for="Email"></span>
+	<br />
+	<br />
+	<label asp-for="Password"></label>
+	<input asp-for="Password" />
+	<span asp-validation-for="Password"></span>
+	<br />
+	<br />
+	<button type="submit">Login</button>
+</form>
+

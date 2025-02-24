@@ -16,5 +16,8 @@
     <h4>@Model.Capacity</h4>
     <br />
     <br />
+@if (User.IsInRole("Admin"))
+{
     <a asp-controller="Department" asp-action="Update" asp-route-id="@Model.DeptId" class="btn btn-primary ">Edit</a>
     <a onclick="return validateDelete();" asp-controller="Department" asp-action="Delete" asp-route-id="@Model.DeptId" class="btn btn-danger ">Delete</a>
+}

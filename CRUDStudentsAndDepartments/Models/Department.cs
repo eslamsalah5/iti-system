@@ -21,5 +21,7 @@ namespace CRUDStudentsAndDepartments.Models
 
         public virtual List<Student> Students { get; set; } = new List<Student>();
 
+        public virtual List<Course> Courses { get; set; } = new List<Course>();
+
     }
 }

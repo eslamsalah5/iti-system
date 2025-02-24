@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CRUDStudentsAndDepartments.Models.Course>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="d-flex justify-content-end p-3">
+        <a asp-action="Create" asp-controller="Courses" class="btn btn-primary">Create New Course</a>
+    </div>
+}
+
+<table class="table table-borderless table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr onclick="location.href='/Courses/details/@item.Id';">
+                <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.Name)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -11,5 +11,10 @@ namespace CRUDStudentsAndDepartments.Controllers
             int x = int.Parse("abc");
             return View();
         }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }

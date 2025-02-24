@@ -1,11 +1,14 @@
 ﻿using CRUDStudentsAndDepartments.Data;
 using CRUDStudentsAndDepartments.Models;
 using CRUDStudentsAndDepartments.Repos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUDStudentsAndDepartments.Controllers
 {
+    [Authorize(Roles = "Instructor")]
+
     public class DepartmentController : Controller
     {
          IDepartment departmentService;
@@ -20,7 +23,10 @@ namespace CRUDStudentsAndDepartments.Controllers
             return View(models);
         }
 
+        
+
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -51,6 +57,8 @@ namespace CRUDStudentsAndDepartments.Controllers
             return View(dept);
         }
 
+        [Authorize(Roles = "Admin")]
+
         public IActionResult Update(int? id)
         {
             if (id == null)
@@ -77,6 +85,7 @@ namespace CRUDStudentsAndDepartments.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int? id)
         {
             if (id == null)

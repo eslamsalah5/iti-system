@@ -3,9 +3,14 @@
 	ViewBag.Title = "Students";
 }
 
-<div class="d-flex justify-content-end p-3">
-    <a asp-action="Create" asp-controller="Students" class="btn btn-primary">Add New Student</a>
-</div>
+@if (User.IsInRole("Admin"))
+{
+    <div class="d-flex justify-content-end p-3">
+        <a asp-action="Create" asp-controller="Students" class="btn btn-primary">Add New Student</a>
+    </div>
+}
+
+
 <table class="table table-border table-hover">
     <thead>
         <tr>

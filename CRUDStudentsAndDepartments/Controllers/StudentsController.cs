@@ -2,6 +2,7 @@
 using CRUDStudentsAndDepartments.Models;
 using CRUDStudentsAndDepartments.Repos;
 using CRUDStudentsAndDepartments.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,8 +11,8 @@ namespace CRUDStudentsAndDepartments.Controllers
     public class StudentsController : Controller
     {
         IStudent studentService;
-        CheckStudentEmailService checkStudentEmailService;
-        public StudentsController(IStudent studentService, CheckStudentEmailService checkStudentEmailService)
+        CheckEmailService checkStudentEmailService;
+        public StudentsController(IStudent studentService, CheckEmailService checkStudentEmailService)
         {
             this.studentService = studentService;
             this.checkStudentEmailService = checkStudentEmailService;
@@ -21,6 +22,8 @@ namespace CRUDStudentsAndDepartments.Controllers
             var models = studentService.GetAllStudents();
             return View(models);
         }
+
+        [Authorize(Roles = "Admin")]
 
         [HttpGet]
         public IActionResult Create()
@@ -60,6 +63,7 @@ namespace CRUDStudentsAndDepartments.Controllers
             return View(std);
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(int? id)
         {
             if (id == null)
@@ -104,6 +108,7 @@ namespace CRUDStudentsAndDepartments.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int? id)
         {
             if (id == null)
